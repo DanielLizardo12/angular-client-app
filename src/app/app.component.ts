@@ -9,5 +9,5 @@ export class AppComponent {
   title: string = 'Welcome to Angular';
 
   subtitle: string = 'Spring 5 with Angular 7';
-  student: string = 'Daniel Lizardo :D';
+  developer: string = 'Daniel Lizardo :D';
 }
