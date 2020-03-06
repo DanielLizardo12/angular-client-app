@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'Welcome to Angular';
 
-  course: string = 'Spring 5 with Angular 7';
+  subtitle: string = 'Spring 5 with Angular 7';
   student: string = 'Daniel Lizardo :D';
 }
