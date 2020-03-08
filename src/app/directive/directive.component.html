@@ -1,0 +1,13 @@
+<button type="button" (click)="setEnableList()" class="btn btn-info my-3">
+  {{ enableList == true? 'Hide' : 'Show'}}
+</button>
+<div class="card">
+  <div class="card-header">
+    Languages List
+  </div>
+  <ul class="list-group" *ngIf="enableList == true">
+    <li class="list-group-item" *ngFor="let language of languagesList">
+      {{ language }}
+    </li>
+  </ul>
+</div>
